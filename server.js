@@ -57,5 +57,7 @@ server.listen(port,ip, function(){
 	console.log('Server running on ' + address.address + ':' + address.port);
 });
 export default {
-	
-}
+  async fetch(request, env, ctx) {
+    return new Response('Hello World!');
+  },
+};
