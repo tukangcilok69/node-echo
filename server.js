@@ -56,3 +56,6 @@ server.listen(port,ip, function(){
 	var address = server.address();
 	console.log('Server running on ' + address.address + ':' + address.port);
 });
+export default {
+	
+}
